@@ -11,6 +11,13 @@ public class TestVertex {
 		System.out.println(v1);
 		System.out.println(v1.getX()+v1.getY());
 		
+		Vertex v2=new Vertex (10,10);
+		System.out.println(v2.length());
+				
+				
+				
+				
+		
 
 	}
 
