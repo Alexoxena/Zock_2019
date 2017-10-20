@@ -82,7 +82,7 @@ public boolean equals (Object thatObject){ //überprüfen ob 2 Objecte gleich sind
 		GeometricObject that= (GeometricObject)thatObject;
 	return that.width==this.width &&
 		   that.height==this.height &&
-		   this.pos.equals(that); 
+		   this.pos.equals(that.pos); 
 	
 	}
 return false;
