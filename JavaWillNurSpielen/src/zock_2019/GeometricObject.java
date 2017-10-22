@@ -34,7 +34,7 @@ public class GeometricObject {
 	this(width,width);
 	}
 
-	public GeometricObject(){   //übergeben, höhe und breite = 0
+	public GeometricObject(){   
 	this(10);}
 
 
@@ -86,9 +86,12 @@ public boolean equals (Object thatObject){ //überprüfen ob 2 Objecte gleich sind
 	
 	}
 return false;
+                                                         /* wenn v=this.v berühren sich die Vierecke.(true)
+                                                          *  wenn vx>=this.vx aber this.vx+width>=vx && vy>this.vy aber this.vy+height>vy
+                                                          *  =>true
+                                                          *  sonst falsch
+                                                          */
 }
 
 }
-
-
 
