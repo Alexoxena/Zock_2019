@@ -14,6 +14,11 @@ public class TestVertex {
 		Vertex v2=new Vertex (10,10);
 		System.out.println(v2.length());
 		
+
+		GeometricObject o= new GeometricObject(70);
+		
+		System.out.println(o);
+		
 		
 				
 				

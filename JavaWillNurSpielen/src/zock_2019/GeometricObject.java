@@ -43,7 +43,7 @@ public class GeometricObject {
 }
 
 	public String toString(){		
-	return "width = " + width +"height= "+ height +"pos = "+pos+"";
+	return "width = " + width+";" +" height = "+ height+ ";"+" pos = "+ pos;
 }
 
 	public double circumference(){       //Umfang berechnen
